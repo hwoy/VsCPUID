@@ -1,0 +1,7 @@
+VsCPUID (aka. Voy's CPUID) is a simple CPUID software created by Voy
+
+This sources can compiled by Microsoft visual C(cl.exe) and Microsoft Macroassembly(ml.exe) in 32 bits native application
+
+MakeFile is compatible with GNU make.
+
+Thank you.

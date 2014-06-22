@@ -1,0 +1,94 @@
+CPU name is GenuineIntel
+Step:		9
+Model:		A
+Family:		6
+eStep:		0
+eModel:		3
+eFamily:	0
+******************* for AMD if family = 15 all three extended-flags are not required *******************
+
+
+========================== show your EDX flags ==========================
+
+ 
+fpu:			Onboard x87 FPU
+vme:			Virtual 8086 mode extensions (VIF)
+de:				Debugging extensions (CR4 bit 3)
+pse:			Page Size Extension
+tsc:			Time Stamp Counter
+msr: 			Model-specific registers
+pae: 			Physical Address Extension
+mce: 			Machine Check Exception
+cx8: 			CMPXCHG8 (compare-and-swap)
+apic:			Onboard Advanced Programmable Interrupt Controller
+sep: 			SYSENTER and SYSEXIT instructions
+mtrr: 			Memory Type Range Registers
+pge: 			Page Global Enable bit in CR4 
+mca: 			Machine check architecture
+cmov: 			Conditional move and FCMOV instructions
+pat: 			Page Attribute
+pse_36: 		36-bit page size extension
+clfsh: 			CLFLUSH instruction (SSE2)
+ds: 			Debug store save: trace of executed jumps
+acpi: 			Onboard thermal control MSRs for ACPI
+mmx: 			MMX instructions
+fxsr: 			FXSAVE, FXRESTOR instructions, CR4 bit 9
+sse: 			SSE instructions (a.k.a. Katmai NewInstructions)
+sse2: 			SSE2 instructions
+ss: 			CPU cache supports self-snoop
+htt: 			Hyper-threading
+tm: 			Thermal monitor automatically limits temperature
+pbe: 			Pending Break Enable (PBE# pin) wakeup support
+
+
+========================== show your ECX flags ==========================
+
+ 
+sse3: 			Prescott New Instructions-SSE3 (PNI)
+pclmulqdq: 		PCLMULQDQ support
+dtes64: 		64-bit debug store (edx bit 21)
+monitor: 		MONITOR and MWAIT instructions (SSE3)
+ds_cpl: 		CPL qualified debug store
+vmx: 			Virtual Machine eXtensions
+est: 			Enhanced SpeedStep
+tm2: 			Thermal Monitor 2
+ssse3: 			Supplemental SSE3 instructions
+cx16: 			CMPXCHG16B instruction
+xtpr: 			Can disable sending task priority messages
+pdcm: 			Perfmon & debug capability
+pcid: 			Process context identifiers (CR4 bit 17)
+sse4_1: 		SSE4.1 instructions
+sse4_2: 		SSE4.2 instructions
+x2apic: 		x2APIC support
+popcnt: 		POPCNT instruction
+tsc_deadline: 	APIC supports one-shot operation using a TSC deadline value
+aes: 			AES instruction set
+xsave: 			XSAVE, XRESTOR, XSETBV, XGETBV
+osxsave: 		XSAVE enabled by OS
+avx: 			Advanced Vector Extensions
+f16c: 			F16C (half-precision) FP support
+rdrnd: 			RDRAND (on-chip random number generator) support
+
+
+========================== show your extended-EBX flags ==========================
+
+ 
+
+
+========================== show your extended-ECX flags ==========================
+
+ 
+
+
+========================== show your HI-EDX flags ==========================
+
+ 
+nx: 			NX bit
+rdtscp: 		RDTSCP instruction
+lm: 			Long mode
+
+
+========================== show your HI-ECX flags ==========================
+
+ 
+lahf_lm: 		LAHF/SAHF in long mode
